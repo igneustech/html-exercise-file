@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- HTML 5, new input type in html -->
+    <style>
+        body{
+            background-color: lightcoral;
+        }
+        div{
+            float: left;
+    margin: 15px;
+    padding: 5px;
+    width: 300px;
+    height: 350px;
+    border: 3px solid gold;
+            
+        }
+        form{
+            font-size: 28px;
+        }
+        p{
+            font-size: 28px;
+            
+        }
+        option{
+            font-size: 28px;
+            color: blue;
+            
+        }
+        textarea{
+            background-color: burlywood;
+        }
+        li{
+            font-size: 20px;
+            
+        }
+    </style>
+    
+    </head>
+    
+    <body>
+<h1 style="color:black">Source files by <a href="http://www.igneustech.com">Igeus Technologies</a> for HTML course</h1>           
+        <div>
+<form>
+User name:<br>
+<input type="text" name="username" value="read" readonly>
+<br>
+<input type="text" name="username" disabled>
+<br>
+<input type="text" name="username" size="25" maxlength="4">
+<br>
+</form>
+        </div>
+        
+        <div>
+            <p>autocomplete</p>
+            <form action="something.php" autocomplete="on">
+  First name:<input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  E-mail: <input type="email" name="email" autocomplete="off"><br>
+  <input type="submit">
+</form>
+        </div>
+        <div>
+            <p> novalidate</p>
+        <form action="something.php" novalidate>
+E-mail: <input type="email" name="user_email">
+<input type="submit">
+</form>
+        
+        </div>
+        <div>
+            <p>autofocus
+            <form action="something.php">
+  First name:<input type="text" name="fname" ><br>
+  Last name: <input type="text" name="lname" autofocus><br>
+  <input type="submit">
+</form>
+        </div>
+        <div>
+            <p>assigning id to form</p>
+            <form action="something.php" id="task1">
+First name: <input type="text" name="fname"><br>
+<input type="submit" value="Submit">
+</form>
+            
+Last name: <input type="text" name="lname" form="task1">
+        </div>
+        <div>
+            <p>formaction</p>
+            <form action="something.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit as student"><br>
+  <input type="submit" formaction="second-something.php" value="Submit as teacher">
+</form>
+        </div>
+        <div>
+            <p>formmethod</p>
+            <form action="something.php" method="get">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Normal Submit">
+  <input type="submit" formmethod="post" formaction="secure-something.php" value="Secure submit">
+</form>
+        </div>
+        <div>
+            <p>image in submit button</p>
+            <form action="something.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="image" src="image.png" alt="Submit" width="48" height="48">
+</form>
+        </div>
+        <div>
+            <p>place holder </p>
+            <form action="something.php">
+  <input type="text" name="fname" placeholder="First name"><br>
+  <input type="text" name="lname" placeholder="Last name"><br>
+  <input type="submit" value="Submit">
+</form>
+            
+        </div>
+        <div>
+            <p>required</p>
+            <form action="something.php">
+  Username: <input type="text" name="name" required>
+  <input type="submit">
+</form>
+        </div>
+        
+        
+        <div>
+            <li>autocomplete</li>
+            <li>autofocus</li>
+            <li>form</li>
+            <li>formaction</li>
+            <li>formenctype</li>
+            <li>formmethod</li>
+            <li>formnovalidate</li>
+            <li>formtarget</li>
+            <li>height and width</li>
+            <li>list</li>
+            <li>min and max</li>
+            <li>multiple</li>
+            <li>pattern (regexp)</li>
+            <li>placeholder</li>
+            <li>required</li>
+            
+            
+        </div>
+    </body>
+</html>

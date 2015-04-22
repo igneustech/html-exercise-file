@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- HTML 5, new input type in html -->
+    <style>
+        body{
+            background-color: lightcoral;
+        }
+        div{
+            float: left;
+    margin: 15px;
+    padding: 5px;
+    width: 300px;
+    height: 350px;
+    border: 3px solid gold;
+            
+        }
+        form{
+            font-size: 28px;
+        }
+        p{
+            font-size: 28px;
+            
+        }
+        option{
+            font-size: 28px;
+            color: blue;
+            
+        }
+        textarea{
+            background-color: burlywood;
+        }
+    </style>
+    
+    </head>
+    
+    <body>
+<h1 style="color:black">Source files by <a href="http://www.igneustech.com">Igeus Technologies</a> for HTML course</h1>        
+      <div>
+          <form>
+First name:<br>
+<input  type="text" name="firstname">
+<br>
+Last name:<br>
+<input type="text" name="lastname">
+</form>
+</div>
+        
+        
+        <div>
+<form>
+User name:<br>
+<input type="text" name="username">
+<br>
+User password:<br>
+<input type="password" name="psw">
+</form>
+</div>
+        
+        <div>
+<form action="something.php">
+Course 1:<br>
+<input type="text" name="python" value="python">
+<br>
+Course 2:<br>
+<input type="text" name="php" value="php">
+<br><br>
+<input type="submit" value="Submit">
+</form>
+        </div>
+ <div>
+  <form>
+      <p>Select only one course </p>
+<input type="radio" name="course" value="python" >python
+<br>
+<input type="radio" name="course" value="php" checked>php
+</form>
+            
+        </div> 
+   <div> 
+       <p>Select from the courses below </p>
+<form>
+<input type="checkbox" name="course" value="python">python
+<br>
+<input type="checkbox" name="course" value="PHP">PHP 
+</form>
+        
+</div>
+
+        <div>
+            <p>Press button to get enroll </p>
+<input type="button" onclick="alert('You got enrolled')" value="Click to enroll!">
+</div>
+        
+        <div>
+<form>
+    <p>Select courses between 2 to 10 </p>
+  Quantity (between 1 and 5):
+  <input type="number" name="quantity" min="2" max="10">
+</form>
+</div>
+  <div>
+      <p>This forms steps the value by 100 </p>
+<form>
+  Quantity:
+  <input type="number" name="points" min="0" max="1000" step="100" value="0">
+</form>
+</div>      
+   <div>     
+    <form>
+        <p>What is your birth date?</p>
+  <input type="date" name="bday">
+</form>    
+      </div>
+        
+        <div>
+            <form>
+                <p>Enter a date before 1980-01-01:</p>
+  <input type="date" name="bday" max="1979-12-31"><br>
+                <p>Enter a date after 2000-01-01:</p>
+  <input type="date" name="bday" min="2000-01-02"><br>
+</form>
+        </div>
+       <div>
+        <form>
+            <p>Design your own color:</p>
+  <input type="color" name="favcolor">
+</form>
+        </div>
+        
+        
+        <div>
+         <form>
+             <p>Birthday (month and year):</p>
+  <input type="month" name="bdaymonth">
+</form>
+        </div>
+        <div>
+         <form>
+             <p>Select a week:</p>
+  <input type="week" name="week_year">
+</form>
+        </div>
+       <div> 
+        <form>
+            <p>Select a time:</p>
+  <input type="time" name="usr_time">
+</form>
+        </div>
+        <div>
+            <form>
+                <p>Birthday (date and time):</p>
+  <input type="datetime-local" name="bdaytime">
+</form>
+        </div>
+        <div>
+            <form action="something.php">
+                <p>E-mail:</p>
+  <input type="email" name="email">
+  <input type="submit">
+</form>
+
+        </div>
+        <div>
+            <form action="something.php">
+                <p>Add your website:</p>
+  <input type="url" name="website">
+  <input type="submit">
+</form>
+
+        </div>
+        <div>
+            <form action="something.php">
+                <p>Search from our site:</p>
+  <input type="search" name="sitesearch">
+  <input type="submit">
+</form>
+        </div>
+        <div>
+            <form action="something.php">
+                <p>Telephone:</p>
+  <input type="tel" name="usrtel">
+  <input type="submit">
+</form>
+        </div>
+    </body>
+</html>

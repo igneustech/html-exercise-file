@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Form fields page -->
+    <style>
+        body{
+            background-color: lightcoral;
+        }
+        div{
+            float: left;
+    margin: 15px;
+    padding: 5px;
+    width: 300px;
+    height: 350px;
+    border: 3px solid gold;
+            
+        }
+        form{
+            font-size: 28px;
+        }
+        p{
+            font-size: 28px;
+            
+        }
+        option{
+            font-size: 28px;
+            color: blue;
+            
+        }
+        textarea{
+            background-color: burlywood;
+        }
+    </style>
+    
+    </head>
+    
+    <body>
+<h1 style="color:black">Source files by <a href="http://www.igneustech.com">Igeus Technologies</a> for HTML course</h1>        
+      <div>
+          <p> Choose your fav course!</p>
+<form action="backend.php">
+<select name="courses">
+<option value="html">html</option>
+<option value="python" s>python</option>
+<option value="c">c</option>
+<option value="cpp">cpp</option>
+</select>
+<br><br>
+<input type="submit">
+</form>
+</div>
+        
+        
+        <div>
+<form action="backend.php">
+<textarea name="message" rows="10" cols="30">
+The text that you want to send.
+</textarea>
+<br><br>
+<input type="submit">
+</form>
+</div>
+        
+        <div>
+<button type="button" onclick="alert('HTML classes')">Click Me!</button>
+</div>
+ <div>
+            <form>
+<input type="file" name="fileupload" accept="image/*" />
+</form>
+            
+        </div> 
+                 
+        <div>
+            <p>Not supported in many Browsers yet!</p>
+<form action="action_page.php">
+
+<input list="programming" name="programming">
+ <datalist id="programming">
+  <option value="Python">
+  <option value="html">
+  <option value="c">
+  <option value="cpp">
+  <option value="php">
+ </datalist>
+<input type="submit">
+</form>
+</div>
+
+        <div>
+<form action="backend.php">
+Username:
+<br>
+<input type="text" name="user">
+<br><br>
+Encryption:
+<br>
+<keygen name="random_key" challenge="0987654321" keytype="rsa">
+<br><br>
+<input type="submit">
+</form>
+</div>
+        
+        <div>
+<form action="backend.php"
+oninput="x.value=parseInt(a.value)*parseInt(b.value)">
+0
+<input type="range" id="a" name="a" value="0">
+100 *  Quantity 
+<input type="number" id="b" name="b" value="35">
+= <output name="x" for="a b"></output>
+<br><br>
+<input type="submit">
+</form>
+</div>
+        
+        
+        
+        
+    </body>
+</html>

@@ -1,0 +1,21 @@
+body {
+    background-color:lightgrey
+}
+h1   {color:blue}
+p    {color:green}
+h2 {
+    color:blue;
+    font-family:courier;
+    font-size:200%;
+
+}
+p#different {
+    color: deeppink;
+    border-bottom: 2px solid black
+}   
+p.error {
+    color:red;
+    border: 2px solid gold;
+    padding: 3px;
+    margin: 3px
+}   
